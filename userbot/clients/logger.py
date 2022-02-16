@@ -14,7 +14,7 @@ from userbot import CMD_HANDLER as cmd
 from userbot import MAN2, MAN3, MAN4, MAN5, bot, branch
 
 MSG_ON = """
-🔥 **Man-Userbot Berhasil Di Aktifkan**
+ **Dino-Userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}@{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
@@ -34,7 +34,7 @@ async def man_userbot_on():
             if BOTLOG_CHATID != 0:
                 await bot.send_message(
                     BOTLOG_CHATID,
-                    f"🔥 **Man-Userbot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{version}@{branch}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
+                    f" **Dino-Userbot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{version}@{branch}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
                 )
     except BaseException:
         pass
